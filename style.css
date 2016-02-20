@@ -10,6 +10,16 @@ body {
 ul {
   list-style-type: none;
   /*border: 2px dashed red;*/
+  width: inherit;
+  text-align: center;
+}
+
+li:first-child {
+  margin-left: 0px !important;
+}
+
+li:nth-child(8) {
+  margin-right: 0px !important;
 }
 
 li {
@@ -26,10 +36,13 @@ a {
 }
 
 .navbar-ul {
+  width: inherit;
   /*border: 2px solid purple;*/
   vertical-align: middle;
   position: absolute;
   top: 25%;
+  /*left: 50%;*/
+  /*margin-left: -20vw;*/
 }
 
 .navbar {
