@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
  * {
@@ -9,7 +9,7 @@ body {
 
 .navbar {
   width: 100vw;
-  height: 10vh;
+  height: 8vh;
   background-color: #e8e8e8;
   margin: 0;
   border-bottom: 1px solid #828282;
@@ -23,7 +23,7 @@ body {
 
 .main-page {
   display: flex;
-  height: 90vh;
+  height: 92vh;
   flex-direction: row-reverse;
   /*border: 2px solid purple;*/
 }
@@ -92,4 +92,15 @@ body {
   font-size: 250%;
   text-align: center;
   font-family: cursive;
+}
+
+.text {
+  margin-top: -50%;
+  margin-right: 3%;
+  margin-left: 3%;
+  color: #eaeaea;
+  font-size: 250%;
+  text-align: center;
+  font-family: cursive;
+  visibility: hidden;
 }
